@@ -17,7 +17,7 @@
         "czim/laravel-nestedupdater": "^2.0|^3.0",
         "askedio/laravel-soft-cascade": "^5.0||^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
         "haydenpierce/class-finder": "^0.4.2|^0.5.2",
-        "ext-mbstring": "^7.3",
+        "ext-mbstring": "^7.3|^8.0",
         "laravel/passport": "^9.3|^10.0|^11.0|^12.0",
 	"php-http/message": "^1.9",
 	"guzzlehttp/psr7": "^1.6|2.0",
