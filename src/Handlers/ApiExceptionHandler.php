@@ -64,13 +64,19 @@ class ApiExceptionHandler extends Handler
             'trace' => $e->getTraceAsString(),
         ]));
 
-        // Return the JSON response in the specified format
-        return response()->json([
+        $response = [
             'status' => false,
-			'code' => $statusCode,
+	    'code' => $statusCode,
             'message' => $responseMessage,
-            'errors' => $errors,
-        ], $statusCode);
+        ];
+
+        if(in_array(env('APP_ENV'), ['production','staging'])) {
+            $response['errors'] = [];
+        } else {
+            $response['errors'] = $errors;
+        }
+        // Return the JSON response in the specified format
+        return response()->json($response, $statusCode);
     }
     
     /**
