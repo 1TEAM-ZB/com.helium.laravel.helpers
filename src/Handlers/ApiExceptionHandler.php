@@ -47,7 +47,7 @@ class ApiExceptionHandler extends Handler
         $statusCode = $this->getStatusCode($e);
 
         // Prepare error message and details, removing sensitive strings if detected
-		$errors_message = $this->sanitizeMessage($e->getMessage());
+	$errors_message = $e instanceof NotFoundHttpException ? 'The requested route does not exist.' : $this->sanitizeMessage($e->getMessage());
         $errors = config('app.debug') ? $this->excludeKeys($e->getTrace(), $this->excludeKeys) : [];
 
         // Determine if we should show a generic error message
