@@ -24,7 +24,7 @@ class ApiExceptionHandler extends Handler
 
     protected function reportThrowable(Throwable $e): void
     {
-        \Log::info("In Api Exception Handler...");
+	    // code..
     }
     /**
      * Render an exception into an HTTP response.
@@ -35,9 +35,6 @@ class ApiExceptionHandler extends Handler
      */
     public function render($request, Throwable $e)
     {
-        // echo 1;die;
-        \Log::info("Handling exception in ApiExceptionHandler...");
-
         // Transform specific exceptions if necessary
         if ($e instanceof ValidationException) {
             $e = new HeliumValidationException($e);
@@ -47,7 +44,7 @@ class ApiExceptionHandler extends Handler
         $statusCode = $this->getStatusCode($e);
 
         // Prepare error message and details, removing sensitive strings if detected
-	$errors_message = $e instanceof NotFoundHttpException ? 'The requested route does not exist.' : $this->sanitizeMessage($e->getMessage());
+	    $errors_message = $e instanceof NotFoundHttpException ? 'The requested route does not exist.' : $this->sanitizeMessage($e->getMessage());
         $errors = config('app.debug') ? $this->excludeKeys($e->getTrace(), $this->excludeKeys) : [];
 
         // Determine if we should show a generic error message
@@ -55,6 +52,11 @@ class ApiExceptionHandler extends Handler
             $responseMessage = 'Something went wrong';
         } else{
             $responseMessage = $errors_message;
+        }
+
+        if ($e instanceof ModelNotFoundException) {
+            $modelName = class_basename($e->getModel());
+            $responseMessage = "Record not found for {$modelName}.";
         }
        
         // Log sanitized exception details
@@ -66,7 +68,7 @@ class ApiExceptionHandler extends Handler
 
         $response = [
             'status' => false,
-	    'code' => $statusCode,
+            'code' => $statusCode,
             'message' => $responseMessage,
         ];
 
