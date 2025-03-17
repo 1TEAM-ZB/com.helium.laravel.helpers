@@ -1,0 +1,378 @@
+{
+  "1": {
+    "iso_3166_2": "AL",
+    "name": "Alabama",
+    "country_code": "US"
+  },
+  "2": {
+    "iso_3166_2": "AK",
+    "name": "Alaska",
+    "country_code": "US"
+  },
+  "3": {
+    "iso_3166_2": "AS",
+    "name": "American Samoa",
+    "country_code": "US"
+  },
+  "4": {
+    "iso_3166_2": "AZ",
+    "name": "Arizona",
+    "country_code": "US"
+  },
+  "5": {
+    "iso_3166_2": "AR",
+    "name": "Arkansas",
+    "country_code": "US"
+  },
+  "6": {
+    "iso_3166_2": "CA",
+    "name": "California",
+    "country_code": "US"
+  },
+  "7": {
+    "iso_3166_2": "CO",
+    "name": "Colorado",
+    "country_code": "US"
+  },
+  "8": {
+    "iso_3166_2": "CT",
+    "name": "Connecticut",
+    "country_code": "US"
+  },
+  "9": {
+    "iso_3166_2": "DE",
+    "name": "Delaware",
+    "country_code": "US"
+  },
+  "10": {
+    "iso_3166_2": "DC",
+    "name": "District of Columbia",
+    "country_code": "US"
+  },
+  "11": {
+    "iso_3166_2": "FM",
+    "name": "Federated States of Micronesia",
+    "country_code": "US"
+  },
+  "12": {
+    "iso_3166_2": "FL",
+    "name": "Florida",
+    "country_code": "US"
+  },
+  "13": {
+    "iso_3166_2": "GA",
+    "name": "Georgia",
+    "country_code": "US"
+  },
+  "14": {
+    "iso_3166_2": "GU",
+    "name": "Guam",
+    "country_code": "US"
+  },
+  "15": {
+    "iso_3166_2": "HI",
+    "name": "Hawaii",
+    "country_code": "US"
+  },
+  "16": {
+    "iso_3166_2": "ID",
+    "name": "Idaho",
+    "country_code": "US"
+  },
+  "17": {
+    "iso_3166_2": "IL",
+    "name": "Illinois",
+    "country_code": "US"
+  },
+  "18": {
+    "iso_3166_2": "IN",
+    "name": "Indiana",
+    "country_code": "US"
+  },
+  "19": {
+    "iso_3166_2": "IA",
+    "name": "Iowa",
+    "country_code": "US"
+  },
+  "20": {
+    "iso_3166_2": "KS",
+    "name": "Kansas",
+    "country_code": "US"
+  },
+  "21": {
+    "iso_3166_2": "KY",
+    "name": "Kentucky",
+    "country_code": "US"
+  },
+  "22": {
+    "iso_3166_2": "LA",
+    "name": "Louisiana",
+    "country_code": "US"
+  },
+  "23": {
+    "iso_3166_2": "ME",
+    "name": "Maine",
+    "country_code": "US"
+  },
+  "24": {
+    "iso_3166_2": "MH",
+    "name": "Marshall Islands",
+    "country_code": "US"
+  },
+  "25": {
+    "iso_3166_2": "MD",
+    "name": "Maryland",
+    "country_code": "US"
+  },
+  "26": {
+    "iso_3166_2": "MA",
+    "name": "Massachusetts",
+    "country_code": "US"
+  },
+  "27": {
+    "iso_3166_2": "MI",
+    "name": "Michigan",
+    "country_code": "US"
+  },
+  "28": {
+    "iso_3166_2": "MN",
+    "name": "Minnesota",
+    "country_code": "US"
+  },
+  "29": {
+    "iso_3166_2": "MS",
+    "name": "Mississippi",
+    "country_code": "US"
+  },
+  "30": {
+    "iso_3166_2": "MO",
+    "name": "Missouri",
+    "country_code": "US"
+  },
+  "31": {
+    "iso_3166_2": "MT",
+    "name": "Montana",
+    "country_code": "US"
+  },
+  "32": {
+    "iso_3166_2": "NE",
+    "name": "Nebraska",
+    "country_code": "US"
+  },
+  "33": {
+    "iso_3166_2": "NV",
+    "name": "Nevada",
+    "country_code": "US"
+  },
+  "34": {
+    "iso_3166_2": "NH",
+    "name": "New Hampshire",
+    "country_code": "US"
+  },
+  "35": {
+    "iso_3166_2": "NJ",
+    "name": "New Jersey",
+    "country_code": "US"
+  },
+  "36": {
+    "iso_3166_2": "NM",
+    "name": "New Mexico",
+    "country_code": "US"
+  },
+  "37": {
+    "iso_3166_2": "NY",
+    "name": "New York",
+    "country_code": "US"
+  },
+  "38": {
+    "iso_3166_2": "NC",
+    "name": "North Carolina",
+    "country_code": "US"
+  },
+  "39": {
+    "iso_3166_2": "ND",
+    "name": "North Dakota",
+    "country_code": "US"
+  },
+  "40": {
+    "iso_3166_2": "MP",
+    "name": "Northern Mariana Islands",
+    "country_code": "US"
+  },
+  "41": {
+    "iso_3166_2": "OH",
+    "name": "Ohio",
+    "country_code": "US"
+  },
+  "42": {
+    "iso_3166_2": "OK",
+    "name": "Oklahoma",
+    "country_code": "US"
+  },
+  "43": {
+    "iso_3166_2": "OR",
+    "name": "Oregon",
+    "country_code": "US"
+  },
+  "44": {
+    "iso_3166_2": "PW",
+    "name": "Palau",
+    "country_code": "US"
+  },
+  "45": {
+    "iso_3166_2": "PA",
+    "name": "Pennsylvania",
+    "country_code": "US"
+  },
+  "46": {
+    "iso_3166_2": "PR",
+    "name": "Puerto Rico",
+    "country_code": "US"
+  },
+  "47": {
+    "iso_3166_2": "RI",
+    "name": "Rhode Island",
+    "country_code": "US"
+  },
+  "48": {
+    "iso_3166_2": "SC",
+    "name": "South Carolina",
+    "country_code": "US"
+  },
+  "49": {
+    "iso_3166_2": "SD",
+    "name": "South Dakota",
+    "country_code": "US"
+  },
+  "50": {
+    "iso_3166_2": "TN",
+    "name": "Tennessee",
+    "country_code": "US"
+  },
+  "51": {
+    "iso_3166_2": "TX",
+    "name": "Texas",
+    "country_code": "US"
+  },
+  "52": {
+    "iso_3166_2": "UT",
+    "name": "Utah",
+    "country_code": "US"
+  },
+  "53": {
+    "iso_3166_2": "VT",
+    "name": "Vermont",
+    "country_code": "US"
+  },
+  "54": {
+    "iso_3166_2": "VI",
+    "name": "Virgin Islands",
+    "country_code": "US"
+  },
+  "55": {
+    "iso_3166_2": "VA",
+    "name": "Virginia",
+    "country_code": "US"
+  },
+  "56": {
+    "iso_3166_2": "WA",
+    "name": "Washington",
+    "country_code": "US"
+  },
+  "57": {
+    "iso_3166_2": "WV",
+    "name": "West Virginia",
+    "country_code": "US"
+  },
+  "58": {
+    "iso_3166_2": "WI",
+    "name": "Wisconsin",
+    "country_code": "US"
+  },
+  "59": {
+    "iso_3166_2": "WY",
+    "name": "Wyoming",
+    "country_code": "US"
+  },
+  "60": {
+    "iso_3166_2": "AE",
+    "name": "Armed Forces Europe, the Middle East, and Canada",
+    "country_code": "US"
+  },
+  "61": {
+    "iso_3166_2": "AP",
+    "name": "Armed Forces Pacific",
+    "country_code": "US"
+  },
+  "62": {
+    "iso_3166_2": "AA",
+    "name": "Armed Forces Americas (except Canada)",
+    "country_code": "US"
+  },
+  "63": {
+    "iso_3166_2": "AB",
+    "name": "Alberta",
+    "country_code": "CA"
+  },
+  "64": {
+    "iso_3166_2": "BC",
+    "name": "British Columbia",
+    "country_code": "CA"
+  },
+  "65": {
+    "iso_3166_2": "MB",
+    "name": "Manitoba",
+    "country_code": "CA"
+  },
+  "66": {
+    "iso_3166_2": "NB",
+    "name": "New Brunswick",
+    "country_code": "CA"
+  },
+  "67": {
+    "iso_3166_2": "NL",
+    "name": "Newfoundland and Labrador",
+    "country_code": "CA"
+  },
+  "68": {
+    "iso_3166_2": "NT",
+    "name": "Northwest Territories",
+    "country_code": "CA"
+  },
+  "69": {
+    "iso_3166_2": "NS",
+    "name": "Nova Scotia",
+    "country_code": "CA"
+  },
+  "70": {
+    "iso_3166_2": "NU",
+    "name": "Nunavut",
+    "country_code": "CA"
+  },
+  "71": {
+    "iso_3166_2": "ON",
+    "name": "Ontario",
+    "country_code": "CA"
+  },
+  "72": {
+    "iso_3166_2": "PE",
+    "name": "Prince Edward Island",
+    "country_code": "CA"
+  },
+  "73": {
+    "iso_3166_2": "QC",
+    "name": "Quebec",
+    "country_code": "CA"
+  },
+  "74": {
+    "iso_3166_2": "SK",
+    "name": "Saskatchewan",
+    "country_code": "CA"
+  },
+  "75": {
+    "iso_3166_2": "YT",
+    "name": "Yukon",
+    "country_code": "CA"
+  }
+
+}
